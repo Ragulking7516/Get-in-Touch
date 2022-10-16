@@ -1,0 +1,143 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100vh;
+     background: #bacdff;    
+}
+
+.form{
+    width: 40%;
+    padding: 40px;
+    background: #ffff;
+}
+.header{
+    color: #1e00ff;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.field1{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+::-webkit-input-placeholder{
+    color: rgb(22, 1, 255);
+    font-size: medium;
+    padding-left: 10px;
+}
+.field5{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.field4{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.field2{
+     width: 95%;
+     display: flex;
+     align-items: center;
+     padding-bottom: 15px;
+}
+.address{
+    width: 96%;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+}
+.message{
+    width: 96%;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+}    
+.field{
+    padding-left: 10px;
+}
+.f-5{
+    padding-left: 20px;
+}
+.f-4{
+    padding-left: 15px;
+}
+.field input{
+    height: 40px;
+    margin-right: 70px; 
+    padding-left:5px;
+    width: 100%;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.address input{
+    background: #c3aefc;
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-radius : 7px;
+    padding-left: 5px;
+}
+.message input{
+    background: #afa3fe;
+    height: 65px;
+    width: 100%;
+    font-size: large;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-radius : 7px;
+    padding-left: 5px;
+}
+
+.f-1 input{
+    background:  #dbc8fe;
+    color: #f3f2f8;
+}
+.f-5 input{
+    background: #dbc8fe;
+}
+.f-2 input{
+    background:  #d2b2ff;
+}
+.f-4 input{
+    background: #dbc8fe;
+}
+button{
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 25px;
+    background: blue;
+    color: #ffff;
+    font-size: large;
+    border: none;
+    width: 27%;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+p{
+    margin-left: 10px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
